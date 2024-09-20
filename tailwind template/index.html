@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+
+        @media screen and (min-width:768px){
+            #device-section{
+                display: flex;
+                flex-direction: row;
+                align-content: space-between;
+            }
+        }
+        #icon-div{
+            width: 350px;
+            
+        }
+        
+        @media screen and (min-width:768px){
+            #section-icon{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+            }
+        }
+        @media screen and (max-width:767px){
+            #section-icon{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+        }
+        @media screen and (max-width:768px){
+            #logo-display{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+        }
+        #logo-display > div{
+            margin: 10px;
+            padding: 10px;
+        }
+        #logo-display{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+        }
+        #last-div{
+            max-width: 1152px;
+            margin: auto;
+            margin-top: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="hero-section" class="mt-20">
+        <div class="">
+            <img src="./images/logo.svg" alt="Image loading.." class="m-auto">
+        </div>
+        <div class="container max-w-6xl p-2  m-auto my-10">
+            <h1 class="text-[40px] text-center p-0 text-darkGrayishBlue font-bold">A history of Everything you copy</h1>
+            <p class="text-grayishBlue text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque itaque, amet distinctio excepturi cupiditate esse est omnis.</p>
+        </div>
+        <div class="flex flex-col max-w-6xl m-auto justify-center text-center  space-y-6 md:flex-row md:space-y-0 md:space-x-4 text-xl ">
+            <a href="#" class="text-white bg-strongCyan p-3 rounded-xl w-full">Download for ios</a>
+            <a href="#" class="text-white bg-lightBlue p-3 rounded-xl w-full">Download for Mac</a>
+        </div>
+        
+    </div>
+    <!-- keep track of your snippet -->
+    <!-- snippet section -->
+    <section>
+        <div class="max-w-6xl m-auto my-10">
+            <h1 class="text-[40px] text-darkGrayishBlue text-center px-4">Keep track of your snippet</h1>
+            <p class="text-grayishBlue text-center p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error unde quas aspernatur dignissimos? Nobis, dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, tenetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, modi.</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="device-section" class=" flex flex-col   max-w-6xl  justify-center  m-auto">
+            <div id="left-div" class="md:w-1/2  justify-center">
+                <img src="./images/image-computer.png" alt="Image Loading..." class="m-auto p-5">
+            </div>
+            <div id="right-div" class="m-5 p-5 md:w-1/2">
+                <div class="device-container max-w-xl m-auto ">
+                    <h3 class="text-darkGrayishBlue text-[25px] text-center">Quick Search</h3>
+                    <p class="text-grayishBlue text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, exercitationem.</p>
+                </div>
+                <div class="device-container max-w-xl m-auto">
+                    <h3 class="text-darkGrayishBlue text-[25px] text-center">iCloud Sync</h3>
+                    <p class="text-grayishBlue text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas?</p>
+                </div>
+                <div class="device-container max-w-xl m-auto">
+                    <h3 class="text-darkGrayishBlue text-[25px] text-center">Compleate History</h3>
+                    <p class="text-grayishBlue text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, accusantium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clipboard anywhere -->
+    <section>
+        <div class="max-w-6xl m-auto text-center p-5 my-30 ">
+            <h1 class="text-[40px] text-darkGrayishBlue">Access Clipboard anywhere</h1>
+            <p class="text-grayishBlue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eius nihil soluta. Tenetur optio commodi facilis magnam quia deleniti in.</p>
+        </div>
+    </section>
+    
+     <!-- device image section -->
+    <section>
+        <img src="./images/image-devices.png" alt="Image loading" class="m-auto " style="margin-top: 60px; width: 700px;">
+    </section>
+
+    <!-- super charge work flow -->
+     <section>
+        <div class="max-w-6xl m-auto my-30 p-5 text-center">
+            <h1 class="text-[40px] text-darkGrayishBlue">Supercharge your workflow</h1>
+            <p class="text-grayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente labore quam sed repellat et, quo sit ullam placeat mollitia distinctio!</p>
+        </div>
+     </section>
+    
+     <!-- icons section  -->
+      <section>
+        <div id="section-icon" class="max-w-6xl m-auto  p-2  my-10">
+            <div id="icon-div" class="p-5 ">
+                <img src="./images/icon-blacklist.svg" alt="image Loadin.." class="m-auto">
+                <h3 class="p-2 text-center text-[25px]">Create blacklists</h3>
+                <p class="text-center p-2 text-grayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta illo dolorem qui tempora fuga eius.</p>
+            </div>
+            <div id="icon-div" class=" p-5 ">
+                <img src="./images/icon-text.svg" alt="image Loadin.." class="m-auto">
+                <h3 class="p-2 text-center text-[25px]">Create blacklists</h3>
+                <p class="text-center p-2 text-grayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta illo dolorem qui tempora fuga eius.</p>
+            </div>
+            <div id="icon-div" class="p-5">
+                <img src="./images/icon-preview.svg" alt="image Loadin.." class="m-auto">
+                <h3 class="p-2 text-center text-[25px]">Create blacklists</h3>
+                <p class="text-center p-2 text-grayishBlue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta illo dolorem qui tempora fuga eius.</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- all logos -->
+    <section>
+        <div class="max-w-6xl  m-auto ">
+            <div id="logo-display">
+                <div>
+                    <img src="./images/logo-google.png" alt="image Loading..">
+                </div>
+                <div>
+                    <img src="./images/logo-ibm.png" alt="image Loading..">
+                </div>
+                <div>
+                    <img src="./images/logo-microsoft.png" alt="image Loading..">
+                </div>
+                <div>
+                    <img src="./images/logo-hp.png" alt="image Loading..">
+                </div>
+                <div>
+                    <img src="./images/logo-vector-graphics.png" alt="image Loading..">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="hero-section" class="mt-20"></div>
+        
+        <div class="container max-w-6xl p-2  m-auto my-10">
+            <h1 class="text-[40px] text-center p-0 text-darkGrayishBlue font-bold">Clipboard for iOS and Mac OS</h1>
+            <p class="text-grayishBlue text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque itaque, amet distinctio excepturi cupiditate esse est omnis.</p>
+        </div>
+        <div class="flex flex-col max-w-6xl m-auto justify-center text-center  space-y-6 md:flex-row md:space-y-0 md:space-x-4 text-xl ">
+            <a href="#" class="text-white bg-strongCyan p-3 rounded-xl max-w-[30%]">Download for ios</a>
+            <a href="#" class="text-white bg-lightBlue p-3 rounded-xl w-[30%]">Download for Mac</a>
+        </div>
+        
+    </div>
+
+    <section>
+        <div id="last-div" class="flex">
+            <div class="border border-black w-1/3">
+                <img src="./images/logo.svg" alt="Image Loading.." style="width: 50px; height: 50px;">
+            </div>
+            <div class="border border-black 2/3">
+                <a href="">FAQs</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Install Guide</a>
+                <a href="">Contact Us</a>
+                <a href="">Press Kit</a>
+            </div>
+            <div class="border border-black flex space-x-5 w-3/3">
+                <img src="./images/icon-twitter.svg" alt="Image Loading..">
+                <img src="./images/icon-instagram.svg" alt="Image Loading..">
+                <img src="./images/icon-facebook.svg" alt="Image Loading..">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
